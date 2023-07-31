@@ -1,7 +1,7 @@
-tameshi module
+example module
 ==============
 
-.. automodule:: tameshi
+.. automodule:: example
    :members:
    :undoc-members:
    :show-inheritance:
