@@ -1,7 +1,7 @@
-main module
-===========
+tameshi module
+==============
 
-.. automodule:: main
+.. automodule:: tameshi
    :members:
    :undoc-members:
    :show-inheritance:
