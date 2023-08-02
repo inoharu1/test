@@ -30,8 +30,114 @@
 
           <div class="body" role="main">
             
-  <section id="example-module">
-<h1>example module<a class="headerlink" href="#example-module" title="Permalink to this heading">¶</a></h1>
+  <section id="module-example">
+<span id="example-module"></span><h1>example module<a class="headerlink" href="#module-example" title="Permalink to this heading">¶</a></h1>
+<p>This is an example Code for docstring and Sphinx.</p>
+<p>Addition,Subtraction,Multiplication,Division.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="example.add">
+<span class="sig-prename descclassname"><span class="pre">example.</span></span><span class="sig-name descname"><span class="pre">add</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/example.html#add"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#example.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>sum 2 float values.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – 1st argument</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – 2nd argument</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>summation of x and y</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<p>Usage</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">example</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="mf">7.7</span><span class="p">,</span><span class="mf">4.4</span><span class="p">))</span>
+<span class="go">12.1</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="example.div">
+<span class="sig-prename descclassname"><span class="pre">example.</span></span><span class="sig-name descname"><span class="pre">div</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/example.html#div"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#example.div" title="Permalink to this definition">¶</a></dt>
+<dd><p>divide x by y.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – 1st argument</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – 2nd argument (Not equal to zero.)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>x minus y</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<p>Usage</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">example</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="mf">7.7</span><span class="p">,</span><span class="mf">4.4</span><span class="p">))</span>
+<span class="go">1.75</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="example.multiple">
+<span class="sig-prename descclassname"><span class="pre">example.</span></span><span class="sig-name descname"><span class="pre">multiple</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/example.html#multiple"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#example.multiple" title="Permalink to this definition">¶</a></dt>
+<dd><p>multiply x by y.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – 1st argument</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – 2nd argument</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>x multiplied by y</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<p>Usage</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">example</span><span class="o">.</span><span class="n">multiple</span><span class="p">(</span><span class="mf">7.7</span><span class="p">,</span><span class="mf">4.4</span><span class="p">))</span>
+<span class="go">33.88</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="example.sub">
+<span class="sig-prename descclassname"><span class="pre">example.</span></span><span class="sig-name descname"><span class="pre">sub</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/example.html#sub"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#example.sub" title="Permalink to this definition">¶</a></dt>
+<dd><p>subtract y from x.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – 1st argument</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – 2nd argument</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>x minus y</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<p>Usage</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">example</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="mf">7.7</span><span class="p">,</span><span class="mf">4.4</span><span class="p">))</span>
+<span class="go">3.3</span>
+</pre></div>
+</div>
+</dd></dl>
+
 </section>
 
 
@@ -53,7 +159,13 @@
 <h3>Navigation</h3>
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">example module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">example module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#example.add"><code class="docutils literal notranslate"><span class="pre">add()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example.div"><code class="docutils literal notranslate"><span class="pre">div()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example.multiple"><code class="docutils literal notranslate"><span class="pre">multiple()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example.sub"><code class="docutils literal notranslate"><span class="pre">sub()</span></code></a></li>
+</ul>
+</li>
 </ul>
 
 <div class="relations">
